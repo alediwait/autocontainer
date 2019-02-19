@@ -119,18 +119,18 @@ cls
 echo.
 echo.
 echo  ESTAMOS GENERANDO EL DOCKERFILE
-echo FROM node:latest >dockerfile
-echo. >>dockerfile
-echo MAINTAINER diwait alejandro@diwait.com >>dockerfile
-echo. >>dockerfile
-echo RUN apt-get update >>dockerfile
-echo. >>dockerfile
-echo EXPOSE 80 >>dockerfile
-echo. >>dockerfile
-echo RUN mkdir /root/nodeapp >>dockerfile
-echo. >>dockerfile
-echo WORKDIR /root/nodeapp >>dockerfile
-echo. >>dockerfile
+echo FROM node:latest >Dockerfile
+echo. >>Dockerfile
+echo MAINTAINER diwait alejandro@diwait.com >>Dockerfile
+echo. >>Dockerfile
+echo RUN apt-get update >>Dockerfile
+echo. >>Dockerfile
+echo EXPOSE 80 >>Dockerfile
+echo. >>Dockerfile
+echo RUN mkdir /root/nodeapp >>Dockerfile
+echo. >>Dockerfile
+echo WORKDIR /root/nodeapp >>Dockerfile
+echo. >>Dockerfile
 echo.
 ping localhost >nul
 cls
